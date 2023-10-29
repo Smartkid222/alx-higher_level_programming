@@ -1,0 +1,42 @@
+# 3-say_my_name.txt
+# Emeka Ajayi
+
+==========================
+How to Use 3-say_my_name.txt
+===========================
+
+This function prints My name is <first name> <last name> `` Prototype: def say_my_name(first_name, last_name="")``.
+
+Usage
+=====
+
+::
+
+    >>> say_my_name = __import__('3-say_my_name').say_my_name
+    >>> say_my_name("Emeka", "Ajayi")
+    My name is Emeka Ajayi
+
+The ```last_name``` parameter is optional. at least one parameter most be provided,
+
+::
+
+    >>> say_my_name("Emeka")
+    My name is Emeka
+
+Invalid Names
+=============
+
+The parameters ``first_name`` and ``last_name``` must be strings. Otherwise,
+a TypeError is raised.
+
+::
+
+    >>> say_my_name(6, "Smart")
+    Traceback (most recent call last):
+    TypeError: first_name must be a string
+
+::
+
+    >>> say_my_name("Miracle", ["cat", "goat"])
+    Traceback (most recent call last):
+    TypeError: last_name must be a string
