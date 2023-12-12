@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Requirements
+=======
+equirements
+>>>>>>> e638fcb7e04956d5668b999861f6fa46b6697ba6
 Python Scripts
 Allowed editors: vi, vim, emacs
 All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
